@@ -49,7 +49,11 @@ See the ClaimsKG dataset website for statistics (https://data.gesis.org/claimskg
 Given the varied rating schemes used by the fact-checking websites, where individual labels often are hard to objectively apply or interpret, we apply a simple normalized rating scheme consisting of four basic categories that can be mapped in a consensual way to all existing rating schemes: TRUE, FALSE, MIXTURE, OTHER. We provide full correspondence tables here: https://data.gesis.org/claimskg/ratings.pdf
 
 ## Prerequisites
-This reimplementation runs on Python3.5+. Redis is used for caching HTTP querries in order to allow faster resuming of extractions in case of failure and for a faster iterative development of new extractors. Please make sure to have a Redis instance (default parameters) running on the machine that runs the extractor. Expected package dependencies are listed in the "requirements.txt" file for PIP, you need to run the following command to get dependencies:
+This reimplementation runs on Python3.5+. Redis is used for caching HTTP querries in order to allow faster resuming of extractions in case of failure and for a faster iterative development of new extractors. Please make sure to have a Redis instance (default parameters) running on the machine that runs the extractor. 
+ 
+## Steps to run the Project
+
+Expected package dependencies are listed in the "requirements.txt" file for PIP, you need to run the following command to get dependencies:
 
 pip install -r requirements.txt
 Examples of usage
