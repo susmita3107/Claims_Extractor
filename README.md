@@ -8,7 +8,8 @@ The pipeline of ClaimsKG depicted below
 # Websites  
 The scrappers available are for the following websites and languages
 
-##English
+## English
+
 Fullfact - https://fullfact.org/
 
 Snopes - https://www.snopes.com/
@@ -23,16 +24,16 @@ AfricaCheck - https://africacheck.org/
 
 AFP Fact Check - https://factcheck.afp.com/
 
-##French
+## French
 AFP Factuel - https://factuel.afp.com/
 
-##Russian
+## Russian
 Factograph - https://www.factograph.info/
 
-##Arabic
+## Arabic
 Fatabyyano - https://fatabyyano.net/en/
 
-##Regional Languages(, Hindi, Punjabi, Assamese, Tamil, Malayalam, Gujarati, Telegu, Marathi, Odia, and Bengali)
+## Regional Languages(, Hindi, Punjabi, Assamese, Tamil, Malayalam, Gujarati, Telegu, Marathi, Odia, and Bengali)
 Vishva news -https://www.vishvasnews.com/
 
 
@@ -70,7 +71,7 @@ Expected package dependencies are listed in the "requirements.txt" file for PIP,
 
 pip install -r requirements.txt
 
-
+![](extractor.png)
 
 ## Getting started
 
