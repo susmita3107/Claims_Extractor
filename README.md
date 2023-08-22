@@ -5,6 +5,9 @@ This project constitutes the web scraping component of ClaimsKG that crawls fact
 The pipeline of ClaimsKG depicted below
 ![ClaimsKG pipeline](claimskg_pipeline.PNG)
 
+# Websites  
+The scrappers available are for the following websites and languages
+
 ##English
 Fullfact - https://fullfact.org/
 Snopes - https://www.snopes.com/
