@@ -1,0 +1,12 @@
+redis
+pandas
+dateparser
+beautifulsoup4==4.6.0
+spacy
+pyspotlight==0.7.2
+rdflib
+tqdm
+yandex.translate
+contractions
+lxml
+git+https://github.com/issa-project/entity-fishing-client-python
