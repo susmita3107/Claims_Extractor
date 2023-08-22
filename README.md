@@ -30,10 +30,10 @@ Fatabyyano - https://fatabyyano.net/en/
 Vishva news -https://www.vishvasnews.com/
 
 
-##Statistics 
+## Statistics 
 See the ClaimsKG dataset website for statistics (https://data.gesis.org/claimskg/#Statistics)
 
-##Features Extracted
+## Features Extracted
 "Claim" : Textual statement of the claim which is being verified
 "Credibility" : Truth rating provided by the respective sites in its original form
 "URL" : URL of the corresponding source page
@@ -45,10 +45,10 @@ See the ClaimsKG dataset website for statistics (https://data.gesis.org/claimskg
 
 
 
-##Normalizing truth values (ratings) across fact-checking websites
+## Normalizing truth values (ratings) across fact-checking websites
 Given the varied rating schemes used by the fact-checking websites, where individual labels often are hard to objectively apply or interpret, we apply a simple normalized rating scheme consisting of four basic categories that can be mapped in a consensual way to all existing rating schemes: TRUE, FALSE, MIXTURE, OTHER. We provide full correspondence tables here: https://data.gesis.org/claimskg/ratings.pdf
 
-##Prerequisites
+## Prerequisites
 This reimplementation runs on Python3.5+. Redis is used for caching HTTP querries in order to allow faster resuming of extractions in case of failure and for a faster iterative development of new extractors. Please make sure to have a Redis instance (default parameters) running on the machine that runs the extractor. Expected package dependencies are listed in the "requirements.txt" file for PIP, you need to run the following command to get dependencies:
 
 pip install -r requirements.txt
