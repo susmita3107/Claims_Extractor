@@ -10,11 +10,17 @@ The scrappers available are for the following websites and languages
 
 ##English
 Fullfact - https://fullfact.org/
+
 Snopes - https://www.snopes.com/
+
 Politifact - http://www.politifact.com/
+
 TruthOrFiction - http://TruthOrFiction.com
+
 Checkyourfact - http://checkyourfact.com
+
 AfricaCheck - https://africacheck.org/
+
 AFP Fact Check - https://factcheck.afp.com/
 
 ##French
@@ -35,12 +41,19 @@ See the ClaimsKG dataset website for statistics (https://data.gesis.org/claimskg
 
 ## Features Extracted
 "Claim" : Textual statement of the claim which is being verified
+
 "Credibility" : Truth rating provided by the respective sites in its original form
+
 "URL" : URL of the corresponding source page
+
 "body" : Description provided by the source article about why the claim is true or false
+
 "Date" : : Date when the claim was made.
+
 "Referred Links" : References used for verifying the claim.
+
 "Tags" : Set of tags or topics provided by the fact checking site.
+
 "Normalized Credibility" : FALSE, TRUE, MIXED, OTHER
 
 
@@ -56,16 +69,8 @@ This reimplementation runs on Python3.5+. Redis is used for caching HTTP querrie
 Expected package dependencies are listed in the "requirements.txt" file for PIP, you need to run the following command to get dependencies:
 
 pip install -r requirements.txt
-Examples of usage
-Command-line usage
-Export claims to a csv file named "output_got.csv".
 
-Get help use [under implementation]
-    python Exporter.py -h
-Get claims by website
-    python Exporter.py --website fullfact,snopes
-limit of number of claims
-    python Exporter.py --maxclaims 30
+
 
 ## Getting started
 
