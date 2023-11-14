@@ -8,10 +8,14 @@ authors:
     
 
 description: This project constitutes the web scraping component of ClaimsKG that crawls fact checking sites and generates a CSV file with a dump of the extracted information.
+
 repository-code: https://git.gesis.org/bda/ClaimsKG
-license: License Name (e.g., MIT License)
-homepage: URL to the method homepage (optional)
+
+license: c4 License
+
+homepage: 
+
+
 keywords:
-  - keyword1
-  - keyword2
-  - keyword3
+ 
+ 
