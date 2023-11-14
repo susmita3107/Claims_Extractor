@@ -1,5 +1,5 @@
  
-#Description:
+# Description:
 This project constitutes the web scraping component of ClaimsKG that crawls fact checking sites (mostly taken from https://www.poynter.org/international-fact-checking-network-fact-checkers-code-principles, which holds a list of reliable fact-checking sites) and generates a CSV file with a dump of the extracted information.
 
 The pipeline of ClaimsKG depicted below
@@ -65,7 +65,7 @@ Given the varied rating schemes used by the fact-checking websites, where indivi
 ## Prerequisites
 This reimplementation runs on Python3.5+. Redis is used for caching HTTP querries in order to allow faster resuming of extractions in case of failure and for a faster iterative development of new extractors. Please make sure to have a Redis instance (default parameters) running on the machine that runs the extractor. 
  
-## Steps to run the Project
+## Usage
 
 Expected package dependencies are listed in the "requirements.txt" file for PIP, you need to run the following command to get dependencies:
 
@@ -73,11 +73,15 @@ pip install -r requirements.txt
 
 ![](extractor.png)
 
-## Add your files
+### Add your files
 
 ``
 cd existing_repo
 git remote add origin https://git.gesis.org/bda/ClaimsKG.git
 git branch -M main
 git push -uf origin main
+
+## Contact
+
+Susmita.gangopadhyay@gesis.org
 ```
