@@ -1,5 +1,5 @@
-# ClaimsKG
-
+ 
+#Description:
 This project constitutes the web scraping component of ClaimsKG that crawls fact checking sites (mostly taken from https://www.poynter.org/international-fact-checking-network-fact-checkers-code-principles, which holds a list of reliable fact-checking sites) and generates a CSV file with a dump of the extracted information.
 
 The pipeline of ClaimsKG depicted below
