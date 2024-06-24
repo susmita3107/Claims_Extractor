@@ -104,7 +104,9 @@ Expected package dependencies are listed in the "requirements.txt" file for PIP,
 
 pip install -r requirements.txt
 
+### How to Use
 
+Below are the various ways for usage of this method
 
 ![](extractor.png)
 
